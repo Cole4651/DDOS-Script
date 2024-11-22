@@ -17,7 +17,7 @@ public class Curl {
 
             @Override
             public void run() {
-                if (count >= 30000) { 
+                if (count >= 30) { 
                     timer.cancel();
                     return;
                 }
